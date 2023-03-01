@@ -984,6 +984,17 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
 .footer__item li a:hover {
   color: #FF9A1E;
 }
+@media screen and (max-width: 48rem) {
+  .footer__item h3 {
+    font-size: 2rem;
+  }
+  .footer__item p {
+    width: 100%;
+  }
+  .footer__item li {
+    margin-left: 12rem;
+  }
+}
 
 .copyright {
   background-color: #2D2D2D;

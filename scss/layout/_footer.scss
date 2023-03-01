@@ -15,6 +15,7 @@
     }
 
     &__item{
+
         h3{
             text-transform: uppercase;
             margin-bottom: 3rem;
@@ -34,6 +35,20 @@
                 }
             }
             
+        }
+
+        @include mediaQuery($mobile){
+            h3{
+                font-size: 2rem;
+                
+            }
+            p{
+                width: 100%;
+            }
+
+            li{
+                margin-left: 12rem;
+            }
         }
     }
 }
