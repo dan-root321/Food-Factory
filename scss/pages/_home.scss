@@ -1,6 +1,7 @@
 .banner{
     &__wrapper{
         min-height: calc(100vh - 100.39px);
+        
 
         @include mediaQuery($mobile){
             flex-direction: column;
